@@ -1,12 +1,14 @@
+![screenshot](./public/main-img.png)
+
 # Hi there 👋
 
-I am a full-stack developer based in Pakistan.
+I am a full-stack React & Next.Js developer.
 
 ### My Stack
 
 - JavaScript
 - React
-- Nextjs
+- Next.Js
 - NodeJs
 - ExpressJs
 - GraphQl
