@@ -1,0 +1,55 @@
+.container {
+  background-color: rgb(255, 255, 255);
+  padding: 100px 0px;
+  .text {
+    .title {
+      font-size: 55px;
+      color: rgb(35, 39, 44);
+    }
+
+    .description {
+      margin-top: 10px;
+      font-size: 18px;
+      color: rgb(53, 53, 58);
+      font-weight: 400;
+      line-height: 0.8cm;
+    }
+  }
+
+  .imageWrapper {
+    .image {
+      box-shadow: 10px 10px 0px rgb(208, 232, 255);
+      border-radius: 10px;
+
+      &:hover {
+        box-shadow: 10px 10px 0px rgb(181, 208, 232);
+      }
+    }
+  }
+  .techWrapper {
+    text-align: center;
+    .text {
+      margin-bottom: 40px;
+      h2 {
+        font-size: 40px;
+      }
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+  .cardContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    .techCard {
+      border-radius: 8px;
+      padding: 10px;
+      background-color: rgb(255, 255, 255);
+      transform: 0.3s all ease-in-out;
+      &:hover {
+        outline: 5px solid rgb(179, 192, 255);
+      }
+    }
+  }
+}
