@@ -9,7 +9,10 @@ export default function TechStack() {
     { img: "/tech/mongodb.svg", alt: "MongoDB", disabled: false },
     { img: "/tech/typescript.svg", alt: "TypeScript", disabled: false },
     { img: "/tech/scss.svg", alt: "SCSS", disabled: false },
+    { img: "/tech/html.svg", alt: "HTML 5", disabled: false },
+    { img: "/tech/css.svg", alt: "CSS 3", disabled: false },
     { img: "/tech/python.svg", alt: "Python", disabled: false },
+    { img: "/tech/django.svg", alt: "Django", disabled: true },
     { img: "/tech/pytorch.svg", alt: "Pytorch", disabled: true },
     { img: "/tech/tensorflow.svg", alt: "Tensorflow", disabled: true },
   ];

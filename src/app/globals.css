@@ -107,7 +107,7 @@ a {
 }
 
 .disabled-div {
-  background-color: rgb(193, 193, 193);
+  background-color: rgb(212, 212, 212) !important;
   filter: grayscale(1);
   transition: none !important;
   transform: none !important;
