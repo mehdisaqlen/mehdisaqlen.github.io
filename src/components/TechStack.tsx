@@ -3,29 +3,34 @@ import styles from "../styles/home.module.scss";
 
 export default function TechStack() {
   const techs = [
-    { img: "/tech/nextjs.svg", alt: "Next.JS" },
-    { img: "/tech/reactjs.svg", alt: "React.JS" },
-    { img: "/tech/nodejs.svg", alt: "Node.JS" },
-    { img: "/tech/mongodb.svg", alt: "MongoDB" },
-    { img: "/tech/typescript.svg", alt: "TypeScript" },
-    { img: "/tech/scss.svg", alt: "SCSS" },
-    { img: "/tech/pytorch.svg", alt: "Pytorch" },
-    { img: "/tech/tensorflow.svg", alt: "Tensorflow" },
-    { img: "/tech/python.svg", alt: "Python" },
+    { img: "/tech/nextjs.svg", alt: "Next.JS", disabled: false },
+    { img: "/tech/reactjs.svg", alt: "React.JS", disabled: false },
+    { img: "/tech/nodejs.svg", alt: "Node.JS", disabled: false },
+    { img: "/tech/mongodb.svg", alt: "MongoDB", disabled: false },
+    { img: "/tech/typescript.svg", alt: "TypeScript", disabled: false },
+    { img: "/tech/scss.svg", alt: "SCSS", disabled: false },
+    { img: "/tech/python.svg", alt: "Python", disabled: false },
+    { img: "/tech/pytorch.svg", alt: "Pytorch", disabled: true },
+    { img: "/tech/tensorflow.svg", alt: "Tensorflow", disabled: true },
   ];
 
   return (
     <div className={styles.cardContainer}>
       {techs.map((item) => {
         return (
-          <div className={styles.techCard}>
+          <div
+            className={`${styles.techCard} ${
+              item.disabled ? "disabled-div" : null
+            }`}
+          >
             <Image
               src={item.img}
               alt={item.alt}
-              width={80}
-              height={80}
+              width={60}
+              height={60}
               title={item.alt}
             />
+            <p>{item.alt}</p>
           </div>
         );
       })}

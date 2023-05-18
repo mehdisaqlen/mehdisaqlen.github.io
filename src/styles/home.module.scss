@@ -40,15 +40,16 @@
   }
   .cardContainer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 25px;
     .techCard {
       border-radius: 8px;
-      padding: 10px;
+      padding: 15px 10px;
       background-color: rgb(255, 255, 255);
-      transform: 0.3s all ease-in-out;
+      transition: 0.1s all ease-in-out;
       &:hover {
-        outline: 5px solid rgb(179, 192, 255);
+        // outline: 5px solid rgb(179, 192, 255);
+        transform: scale(1.08);
       }
     }
   }

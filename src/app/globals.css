@@ -105,3 +105,11 @@ a {
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
+.disabled-div {
+  background-color: rgb(193, 193, 193);
+  filter: grayscale(1);
+  transition: none !important;
+  transform: none !important;
+  cursor: not-allowed;
+}
