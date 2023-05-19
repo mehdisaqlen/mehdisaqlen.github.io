@@ -4,16 +4,31 @@ html {
   padding: 0px;
   box-sizing: border-box;
 }
+body {
+  background-color: #f8f9fa;
+}
 
 a {
   color: inherit;
   text-decoration: none;
 }
 .content-wrapper {
-  max-width: 900px;
+  max-width: 600px;
   margin: 0px auto;
+  padding: 0px 15px;
 }
 
+.text-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+.color-link {
+  color: rgb(12, 19, 26);
+  font-weight: 600;
+}
 .flex-row {
   display: flex;
   align-items: center;
@@ -112,4 +127,9 @@ a {
   transition: none !important;
   transform: none !important;
   cursor: not-allowed;
+}
+
+.active-link {
+  background-color: rgb(226, 230, 235) !important;
+  border-radius: 50px !important;
 }
