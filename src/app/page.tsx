@@ -25,10 +25,10 @@ function Home() {
         </p>
 
         <p>
-          If you're seeking assistance in achieving your business goals, I am
-          ready to collaborate. Feel free to reach out to me.
+          If you&apos;re seeking assistance in achieving your business goals, I
+          am ready to collaborate. Feel free to reach out to me.
         </p>
-        <p>Let me know if there's anything else I can help you with!</p>
+        <p>Let me know if there&apos;s anything else I can help you with!</p>
         <strong>Regards,</strong>
         <p>Saqlen Raza Mehdi</p>
         <div className={styles.socialIcons}>

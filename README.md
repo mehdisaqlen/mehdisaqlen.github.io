@@ -1,5 +1,3 @@
-![screenshot](./public/main-img.png)
-
 # Hi there 👋
 
 I am a full-stack React & Next.Js developer.
