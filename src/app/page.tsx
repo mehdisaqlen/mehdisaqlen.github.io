@@ -20,8 +20,8 @@ function Home() {
           I have successfully completed projects in these areas.
         </p>
         <p>
-          I also loves contributing and sharing my knowledge. I write articles
-          on Medium and Wirelogs. I teach coding at YouTube.
+          I also love contributing and sharing my knowledge. I write articles on
+          Medium and Wirelogs. I teach coding on YouTube.
         </p>
 
         <p>
@@ -32,16 +32,22 @@ function Home() {
         <strong>Regards,</strong>
         <p>Saqlen Raza Mehdi</p>
         <div className={styles.socialIcons}>
-          <Link href="#">
+          <Link
+            href="https://www.linkedin.com/in/mehdisaqlen"
+            target={"_blank"}
+          >
             <FaLinkedinIn />
           </Link>
-          <Link href="#">
+          <Link href="https://www.github.com/mehdisaqlen" target={"_blank"}>
             <VscGithubAlt />
           </Link>
-          <Link href="#">
+          <Link href="https://www.medium.com/@mehdisaqlen" target={"_blank"}>
             <AiOutlineMedium />
           </Link>
-          <Link href="#">
+          <Link
+            href="https://twitter.com/intent/follow?screen_name=mehdisaqlen"
+            target={"_blank"}
+          >
             <CiTwitter />
           </Link>
           <Link href="mailto:mehdisaqlendev@gmail.com">

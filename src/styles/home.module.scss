@@ -43,8 +43,9 @@
     position: relative;
     z-index: -1;
     overflow: hidden;
-    max-width: 800px;
+    max-width: 100%;
     margin: 0 auto;
+    // border-radius: 250px;
   }
   .text {
     .title {

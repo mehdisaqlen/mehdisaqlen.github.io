@@ -26,7 +26,7 @@ export default function Post(props: post) {
           />
 
           <Link href={"/"} className={styles.name}>
-            Name
+            Saqlen
           </Link>
           <p className={"text-icon date"}>
             <VscCalendar /> &nbsp; {props.date}

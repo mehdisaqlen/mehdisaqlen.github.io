@@ -19,7 +19,7 @@ export default function SubNav() {
           return (
             <li
               key={item.id}
-              className={pathname == item.path ? "active-link" : null}
+              className={pathname == item.path ? "active-link" : ""}
             >
               <Link href={item.path}>{item.item}</Link>
             </li>

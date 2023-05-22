@@ -1,11 +1,9 @@
 import styles from "../styles/home.module.scss";
 import Image from "next/image";
-import TechStack from "./TechStack";
 import Button from "./Button";
 import Link from "next/link";
-import { CiLocationOn, CiLink, CiLinkedin, CiTwitter } from "react-icons/ci";
+import { CiLocationOn, CiLinkedin, CiTwitter } from "react-icons/ci";
 import { VscLink, VscGithubAlt } from "react-icons/vsc";
-import { FaLinkedinIn } from "react-icons/fa";
 import SubNav from "./SubNav";
 
 export default function Hero() {
@@ -13,12 +11,9 @@ export default function Hero() {
     <section className={styles.container}>
       <div className={styles.banner}>
         <Image
-          src={
-            "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
-          }
-          fill={true}
+          src={"https://images.unsplash.com/photo-1485827404703-89b55fcc595e"}
+          fill
           style={{ objectFit: "cover" }}
-          className={styles.img}
           alt={"Banner AI"}
         />
       </div>
@@ -35,7 +30,11 @@ export default function Hero() {
             />
           </div>
           <div style={{ marginTop: 10 }}>
-            <Button text="Follow" path="#">
+            <Button
+              text="Follow"
+              path="https://twitter.com/intent/follow?screen_name=mehdisaqlen"
+              target={"_blank"}
+            >
               <CiTwitter size={25} />
             </Button>
           </div>
@@ -55,31 +54,29 @@ export default function Hero() {
             </div>
 
             <div className="text-icon ">
-              <VscLink size={20} /> <Link href="#">Wirelogs.com</Link>
+              <VscLink size={20} />{" "}
+              <Link href="https://www.wirelogs.com/" rel={"dofollow"}>
+                Wirelogs.com
+              </Link>
             </div>
 
             <div className="text-icon ">
               <VscGithubAlt size={20} />
-              <Link href="#">GitHub</Link>
+              <Link href="https://www.github.com/mehdisaqlen" target={"_blank"}>
+                GitHub
+              </Link>
             </div>
             <div className="text-icon ">
               <CiLinkedin size={20} />
-              <Link href="#">LinkedIn</Link>
+              <Link
+                href="https://www.linkedin.com/in/mehdisaqlen"
+                target={"_blank"}
+              >
+                LinkedIn
+              </Link>
             </div>
           </div>
-          {/* <div className={"flex-row gap-10 my-20"}>
-            <Link href={"#"} className={"btn"}>
-              <Image
-                src={"/linkedin.svg"}
-                width={35}
-                height={35}
-                alt="LinkedIn"
-              />{" "}
-            </Link>
-            <Link href={"#"} className={"btn"}>
-              <Image src={"/github.svg"} width={30} height={30} alt="Github" />{" "}
-            </Link>
-          </div> */}
+
           <SubNav />
         </div>
       </div>
