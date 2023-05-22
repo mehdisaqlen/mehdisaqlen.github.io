@@ -11,6 +11,10 @@ const space_grotesk = Space_Grotesk({
 export const metadata = {
   title: "Saqlen Mehdi | React Developer",
   description: "Full Stack Next.JS Developer",
+
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
