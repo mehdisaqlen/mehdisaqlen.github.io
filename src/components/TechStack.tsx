@@ -25,7 +25,7 @@ export default function TechStack() {
         return (
           <div
             className={`${styles.techCard} ${
-              item.disabled ? "disabled-div" : null
+              item.disabled ? "disabled-div" : ""
             }`}
             key={uuidv4()}
           >
