@@ -129,6 +129,11 @@ a {
   cursor: not-allowed;
 }
 
+.date {
+  font-size: 13px;
+  color: rgb(139, 133, 133) y;
+}
+
 .active-link {
   background-color: rgb(226, 230, 235) !important;
   border-radius: 50px !important;

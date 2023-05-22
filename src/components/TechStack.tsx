@@ -15,6 +15,7 @@ export default function TechStack() {
     { img: "/tech/django.svg", alt: "Django", disabled: true },
     { img: "/tech/pytorch.svg", alt: "Pytorch", disabled: true },
     { img: "/tech/tensorflow.svg", alt: "Tensorflow", disabled: true },
+    { img: "/tech/opencv.svg", alt: "OpenCV", disabled: true },
   ];
 
   return (

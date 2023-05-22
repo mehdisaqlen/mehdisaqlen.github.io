@@ -2,14 +2,13 @@
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import styles from "../styles/nav.module.scss";
-import { VscHome, VscGithubAlt } from "react-icons/vsc";
 
 export default function SubNav() {
   const pathname = usePathname();
 
   const navItems = [
     { item: "About", path: "/", id: 2 },
-    { item: "Feed", path: "/feed", id: 1 },
+    { item: "Articles", path: "/articles", id: 1 },
     { item: "Projects", path: "/projects", id: 3 },
     { item: "Contact", path: "/contact", id: 4 },
   ];
