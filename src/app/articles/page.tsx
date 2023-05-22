@@ -2,6 +2,12 @@ import Post from "../../components/Post";
 import posts from "../content/posts.json";
 import { v4 as uuidv4 } from "uuid";
 
+export const metadata = {
+  title: "Browse Articles by Saqlen Mehdi",
+  description:
+    "Find and read articles on topics like tech, business, AI, ML, programming, etc.",
+};
+
 export default function page() {
   return (
     <div>

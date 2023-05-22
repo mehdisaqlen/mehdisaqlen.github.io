@@ -9,7 +9,7 @@ const space_grotesk = Space_Grotesk({
 });
 
 export const metadata = {
-  title: "Saqlen Mehdi | Full Stack Developer",
+  title: "Saqlen Mehdi | React Developer",
   description: "Full Stack Next.JS Developer",
 };
 

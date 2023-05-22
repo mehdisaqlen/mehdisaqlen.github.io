@@ -18,7 +18,7 @@ export default function Post(props: post) {
       <header className={styles.header}>
         <div className={styles.postInfo}>
           <Image
-            src="/saqlen.jpeg"
+            src="/saqlen.jpg"
             width={55}
             height={55}
             className={styles.avatar}

@@ -21,7 +21,7 @@ export default function Hero() {
         <div className={"flex-row space-between"}>
           <div className={styles.imageWrapper}>
             <Image
-              src={"/saqlen.jpeg"}
+              src={"/saqlen.jpg"}
               quality={100}
               width={125}
               height={125}
