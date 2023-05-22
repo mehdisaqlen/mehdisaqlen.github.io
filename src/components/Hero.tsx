@@ -43,7 +43,7 @@ export default function Hero() {
 
         <div className={styles.text}>
           <h1 className={styles.title}>Saqlen Mehdi</h1>
-          <p className={styles.description}>React Developer</p>
+          <p className={styles.description}>React ⚛️ Developer</p>
           <p className={styles.description} style={{ marginTop: 5 }}>
             I am passionate about ML and 🤖 Computer Vision.
           </p>

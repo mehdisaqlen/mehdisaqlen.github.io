@@ -2,7 +2,17 @@ import styles from "../styles/post.module.scss";
 import Image from "next/image";
 import Link from "next/link";
 import { VscCalendar } from "react-icons/vsc";
-export default function Post() {
+
+interface post {
+  title: string;
+  date: string;
+  desc: string;
+  img: string;
+  url: string;
+  tag: string;
+}
+
+export default function Post(props: post) {
   return (
     <div className={styles.post}>
       <header className={styles.header}>
@@ -15,33 +25,29 @@ export default function Post() {
             alt={"Saqlen Mehdi"}
           />
 
-          <Link href={"#"} className={styles.name}>
+          <Link href={"/"} className={styles.name}>
             Name
           </Link>
           <p className={"text-icon date"}>
-            <VscCalendar /> &nbsp; April 2022
+            <VscCalendar /> &nbsp; {props.date}
           </p>
         </div>
         <div className={styles.tag}>
-          <p>CSS</p>
+          <p>{props.tag}</p>
         </div>
       </header>
 
       <div className={styles.body}>
-        <h2>How computer vision can change the world?</h2>
-        <p>
-          Computer vision is an AI subset. Teaching computers how to see the
-          image
-        </p>
+        <Link href={props.url}>
+          <h2>{props.title}</h2>
+        </Link>
+        <p>{props.desc}</p>
       </div>
-
-      <div className={styles.thumbnail}>
-        <Image
-          src="https://images.unsplash.com/photo-1580927752452-89d86da3fa0a"
-          alt={"Saqlen Mehdi"}
-          fill
-        />
-      </div>
+      <Link href={props.url}>
+        <div className={styles.thumbnail}>
+          <Image src={props.img} alt={props.title} fill />
+        </div>
+      </Link>
     </div>
   );
 }

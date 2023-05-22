@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Wirelogs",
+    "desc": "Wirelogs is a tech blog bulilt with Next.Js",
+    "img": "https://images.unsplash.com/photo-1580927752452-89d86da3fa0a",
+    "url": "https://www.wirelogs.com"
+  },
+  {
+    "title": "Neru Games ",
+    "desc": "Nerugames - A video gaming guide and blog.",
+    "img": "https://images.unsplash.com/photo-1593118247619-e2d6f056869e",
+    "url": "https://www.nerugames.com"
+  },
+  {
+    "title": "Earnings Ideas ",
+    "desc": "EarningsIdeas - An online authentic guide towards starting an online business.",
+    "img": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4",
+    "url": "https://www.earningsideas.com"
+  }
+]
