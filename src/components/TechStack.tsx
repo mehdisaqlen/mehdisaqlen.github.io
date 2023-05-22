@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "../styles/home.module.scss";
+import { v4 as uuidv4 } from "uuid";
 
 export default function TechStack() {
   const techs = [
@@ -26,6 +27,7 @@ export default function TechStack() {
             className={`${styles.techCard} ${
               item.disabled ? "disabled-div" : null
             }`}
+            key={uuidv4()}
           >
             <Image
               src={item.img}
