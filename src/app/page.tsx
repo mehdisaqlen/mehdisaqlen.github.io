@@ -3,7 +3,7 @@ import Tech from "@/components/Tech";
 import Link from "next/link";
 import { CiTwitter } from "react-icons/ci";
 import { VscMail, VscGithubAlt } from "react-icons/vsc";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaFileAlt } from "react-icons/fa";
 import { AiOutlineMedium } from "react-icons/ai";
 
 function Home() {
@@ -32,6 +32,13 @@ function Home() {
         <strong>Regards,</strong>
         <p>Saqlen Raza Mehdi</p>
         <div className={styles.socialIcons}>
+          <Link
+            href="https://drive.google.com/file/d/1dc8xoHpZZ9TjG9kZZb9cZYMuhw8F1fi1/view?usp=sharing"
+            target={"_blank"}
+            title="Resume"
+          >
+            <FaFileAlt />
+          </Link>
           <Link
             href="https://www.linkedin.com/in/mehdisaqlen"
             target={"_blank"}
