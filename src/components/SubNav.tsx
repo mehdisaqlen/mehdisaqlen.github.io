@@ -10,7 +10,6 @@ export default function SubNav() {
     { item: "About", path: "/", id: 2 },
     { item: "Articles", path: "/articles", id: 1 },
     { item: "Projects", path: "/projects", id: 3 },
-    { item: "Contact", path: "/contact", id: 4 },
   ];
   return (
     <nav className={styles.subNav}>

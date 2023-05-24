@@ -25,8 +25,8 @@ export default function Hero() {
             <Image
               src={"/saqlen.jpg"}
               quality={100}
-              width={125}
-              height={125}
+              width={100}
+              height={100}
               alt="Saqlen Mehdi"
               className={styles.image}
             />
@@ -43,13 +43,13 @@ export default function Hero() {
         </div>
 
         <div className={styles.text}>
-          <h1 className={styles.title}>Saqlen Mehdi</h1>
+          <h1>Saqlen Mehdi</h1>
           <p className={styles.description}>React ⚛️ Developer</p>
           <p className={styles.description} style={{ marginTop: 5 }}>
             I am passionate about ML and 🤖 Computer Vision.
           </p>
 
-          <div className={"flex-row  gap-10 icon-row my-15"}>
+          <div className={"flex-row flex-wrap gap-10 icon-row my-15"}>
             <div className="text-icon ">
               <CiLocationOn size={20} />
               Pakistan
@@ -58,7 +58,7 @@ export default function Hero() {
             <div className="text-icon ">
               <VscLink size={20} />{" "}
               <Link href="https://www.wirelogs.com/" rel={"dofollow"}>
-                Wirelogs.com
+                wirelogs.com
               </Link>
             </div>
 

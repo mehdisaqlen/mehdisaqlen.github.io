@@ -45,7 +45,12 @@ export default function Post(props: post) {
       </div>
       <Link href={props.url}>
         <div className={styles.thumbnail}>
-          <Image src={props.img} alt={props.title} fill />
+          <Image
+            src={props.img}
+            alt={props.title}
+            fill
+            style={{ objectFit: "cover" }}
+          />
         </div>
       </Link>
     </div>

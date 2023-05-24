@@ -32,3 +32,13 @@
     background-color: rgb(226, 230, 235);
   }
 }
+
+@media screen and (max-width: 500px) {
+  .project {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: -15px;
+    margin-right: -15px;
+    border-radius: 0px;
+  }
+}

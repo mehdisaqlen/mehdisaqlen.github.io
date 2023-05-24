@@ -1,10 +1,18 @@
 [
   {
+    "date": "May 2023",
+    "title": "ChatGPT iOS App: Transforming Mobile Conversational AI",
+    "desc": "Experience the power of ChatGPT on your iOS device! OpenAI announces the launch of the ChatGPT iOS app, revolutionizing conversational AI with its natural interactions.",
+    "img": "https://www.wirelogs.com/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1679083216051-aa510a1a2c0e&w=1920&q=75",
+    "tag": "AI",
+    "url": "https://www.wirelogs.com/tech/chatgpt-ios-app"
+  },
+  {
     "date": "April 2023",
-    "title": "Title of the post",
-    "desc": "This article is about deep vision and machine learning. In this article I have explained how computer vision can help doctors.",
-    "img": "https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-    "tag": "JavaScript",
-    "url": "https://www.wirelogs.com"
+    "title": "30 Free AI Tools: The Ultimate List of Online AI Tools",
+    "desc": "These 30 Free AI Tools will make your life easier. This list of free online AI tools for content writing, text-to-image generators, image enhancers, and more.",
+    "img": "https://www.wirelogs.com/_next/image?url=https%3A%2F%2Fimages.unsplash.com%2Fphoto-1526378722484-bd91ca387e72&w=1920&q=75",
+    "tag": "AI",
+    "url": "https://www.wirelogs.com/tech/free-ai-tools"
   }
 ]
