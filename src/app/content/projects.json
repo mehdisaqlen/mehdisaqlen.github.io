@@ -1,5 +1,11 @@
 [
   {
+    "title": "INSAAN Foundation",
+    "desc": "Insaan F. a flood relief initiative for flood affectees in Pakistan 2022",
+    "img": "/projects/insaanf.png",
+    "url": "https://insaanf.netlify.app"
+  },
+  {
     "title": "Wirelogs",
     "desc": "Wirelogs is a tech blog bulilt with Next.Js",
     "img": "https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
