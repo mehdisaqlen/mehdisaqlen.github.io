@@ -33,7 +33,7 @@ function Home() {
         <p>Saqlen Raza Mehdi</p>
         <div className={styles.socialIcons}>
           <Link
-            href="https://drive.google.com/file/d/1dc8xoHpZZ9TjG9kZZb9cZYMuhw8F1fi1/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Qo7Ei7yuAs6DQuZU5PPhtDmfudhRZJ8X/view?usp=sharing"
             target={"_blank"}
             title="Resume"
           >

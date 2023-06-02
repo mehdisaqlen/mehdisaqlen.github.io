@@ -4,7 +4,7 @@ import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
 import Script from "next/script";
-
+import Head from "next/head";
 const space_grotesk = Space_Grotesk({
   weight: ["500", "400", "600", "700"],
   subsets: ["latin"],
@@ -26,6 +26,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <Head>
+        <link rel="shortcut icon" href="/favicon.png" />
+      </Head>
       <head>
         <Script
           strategy="afterInteractive"
