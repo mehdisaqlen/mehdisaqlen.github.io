@@ -12,23 +12,41 @@ function Home() {
       <article className={`${styles.about} content-wrapper`}>
         <h2>About Me</h2>
         <p>
-          Hi, I am Saqlen Mehdi a Software Engineering graduate with a strong
-          passion for <strong>AI</strong> and <strong>Computer Vision.</strong>I
-          have expertise in web development, machine learning, computer vision,
-          and cybersecurity. With skills in{" "}
-          <strong>React, Next.js, Node.js,</strong> and <strong>Python</strong>,
-          I have successfully completed projects in these areas.
+          Hello, I&apos;m Saqlen Mehdi, a Software Engineering graduate with a
+          strong passion for <strong>AI</strong> and{" "}
+          <strong>Computer Vision</strong>. My research interests revolve around
+          utilizing AI and computer vision to address healthcare challenges,
+          such as early detection of brain tumors and other medical conditions.
         </p>
         <p>
-          I also love contributing and sharing my knowledge. I write articles on
-          Medium and Wirelogs. I teach coding on YouTube.
+          As a full-stack developer, I have a strong command of web development
+          technologies. I am skilled in building interactive and responsive web
+          applications using <strong>React, Next.js, Node.js,</strong> and{" "}
+          <strong>Python</strong>. My proficiency in these areas allows me to
+          create engaging user experiences and deliver high-quality web
+          solutions.
         </p>
 
         <p>
-          If you&apos;re seeking assistance in achieving your business goals, I
-          am ready to collaborate. Feel free to reach out to me.
+          In addition to my technical skills, I possess a diverse range of soft
+          skills. I am proficient in graphic designing, copywriting,
+          documentation, and have experience in leading teams, project
+          management, and ensuring optimal user experience.
         </p>
-        <p>Let me know if there&apos;s anything else I can help you with!</p>
+
+        <p>
+          I also enjoy contributing and sharing my knowledge with others. You
+          can find my articles on Medium and Wirelogs, where I cover various
+          topics related to software engineering, AI, and computer vision. I
+          also actively teach coding and related concepts on YouTube.
+        </p>
+
+        <p>
+          If you're looking for someone to collaborate with in achieving your
+          business goals or have any other inquiries, please feel free to reach
+          out to me.
+        </p>
+
         <strong>Regards,</strong>
         <p>Saqlen Raza Mehdi</p>
         <div className={styles.socialIcons}>
