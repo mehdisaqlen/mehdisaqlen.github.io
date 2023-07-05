@@ -42,9 +42,9 @@ function Home() {
         </p>
 
         <p>
-          If you're looking for someone to collaborate with in achieving your
-          business goals or have any other inquiries, please feel free to reach
-          out to me.
+          If you&apos;re looking for someone to collaborate with in achieving
+          your business goals or have any other inquiries, please feel free to
+          reach out to me.
         </p>
 
         <strong>Regards,</strong>
