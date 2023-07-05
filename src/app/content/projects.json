@@ -8,19 +8,19 @@
   {
     "title": "Wirelogs",
     "desc": "Wirelogs is a tech blog bulilt with Next.Js",
-    "img": "https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    "img": "/projects/wirelogs.jpg",
     "url": "https://www.wirelogs.com"
   },
   {
     "title": "Neru Games ",
     "desc": "Nerugames - A video gaming guide and blog.",
-    "img": "https://images.unsplash.com/photo-1593118247619-e2d6f056869e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    "img": "/projects/nerugames.jpg",
     "url": "https://www.nerugames.com"
   },
   {
     "title": "Earnings Ideas ",
     "desc": "EarningsIdeas - An online authentic guide towards starting an online business.",
-    "img": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    "img": "/projects/earningsideas.jpg",
     "url": "https://www.earningsideas.com"
   }
 ]
