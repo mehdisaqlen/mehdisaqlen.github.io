@@ -15,7 +15,7 @@ export const metadata = {
     icon: "/favicon.png",
   },
   title: "Saqlen Mehdi | React Developer",
-  description: "Full Stack Next.JS Developer",
+  description: "AI & Computer Vision Researcher",
 };
 
 export default function RootLayout({

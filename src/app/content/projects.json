@@ -1,9 +1,15 @@
 [
   {
-    "title": "INSAAN Foundation",
-    "desc": "Insaan F. a flood relief initiative for flood affectees in Pakistan 2022",
-    "img": "/projects/insaanf.png",
-    "url": "https://insaanf.netlify.app"
+    "title": "Facial Emotion Recognition Model",
+    "desc": "Detect your facial emotion with this computer vision model.",
+    "img": "/projects/facial.jpg",
+    "url": "https://github.com/mehdisaqlen/facial-recognition-system"
+  },
+  {
+    "title": "QRQuick",
+    "desc": "Instant QR code generator.",
+    "img": "/projects/qrquick.jpg",
+    "url": "https://qr-quick.vercel.app"
   },
   {
     "title": "Wirelogs",
@@ -11,6 +17,13 @@
     "img": "/projects/wirelogs.jpg",
     "url": "https://www.wirelogs.com"
   },
+  {
+    "title": "INSAAN Foundation",
+    "desc": "Insaan F. a flood relief initiative for flood affectees in Pakistan 2022",
+    "img": "/projects/insaanf.png",
+    "url": "https://insaanf.netlify.app"
+  },
+
   {
     "title": "Neru Games ",
     "desc": "Nerugames - A video gaming guide and blog.",
