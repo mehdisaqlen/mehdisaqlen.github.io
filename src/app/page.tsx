@@ -51,7 +51,7 @@ function Home() {
         <p>Saqlen Raza Mehdi</p>
         <div className={styles.socialIcons}>
           <Link
-            href="https://drive.google.com/file/d/1Qo7Ei7yuAs6DQuZU5PPhtDmfudhRZJ8X/view?usp=sharing"
+            href="https://drive.google.com/file/d/1JviwuKdfFyTQtSq4suMylMEtiEPZBkbM/view?usp=sharing"
             target={"_blank"}
             title="Resume"
           >
