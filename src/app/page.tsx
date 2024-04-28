@@ -12,14 +12,14 @@ function Home() {
       <article className={`${styles.about} content-wrapper`}>
         <h2>About Me</h2>
         <p>
-          I am a React Developer with expertise in Next.js, API development, Firebase, MongoDB, and Docker for streamlined app development and deployment. Over the past two years, I've been at the forefront of the AI revolution, specializing in Computer Vision and AI research. Currently, I'm a Software Developer at ASPIRE Pakistan and a contributing researcher at the National AI Think Tank Program.
+          I am a React Developer with expertise in Next.js, API development, Firebase, MongoDB, and Docker for streamlined app development and deployment. Over the past two years, I&apos;ve been at the forefront of the AI revolution, specializing in Computer Vision and AI research. Currently, I&apos;m a Software Developer at ASPIRE Pakistan and a contributing researcher at the National AI Think Tank Program.
         </p>
         <p>
         I&apos;m passionate about building innovative computer vision applications and diving deep into deep learning. My recent project, a “Facial Emotions Recognition System” built with OpenCV and Keras that achieved an accuracy rate of 94%, showcases my ability to turn knowledge into practical solutions.
         </p>
 
         <p>
-        Rather than spreading myself thin across multiple technologies, I focus on mastering the tools that enable me to solve real-world problems. I'm a project-driven learner, having taught myself web and desktop app development, as well as technologies like Tensorflow, Keras, and OpenCV.
+        Rather than spreading myself thin across multiple technologies, I focus on mastering the tools that enable me to solve real-world problems. I&apos;m a project-driven learner, having taught myself web and desktop app development, as well as technologies like Tensorflow, Keras, and OpenCV.
         </p>
 
         <p>
