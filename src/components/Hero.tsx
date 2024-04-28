@@ -42,9 +42,9 @@ export default function Hero() {
 
         <div className={styles.text}>
           <h1>Saqlen Mehdi</h1>
-          <p className={styles.description}>ML & Computer Vision Researcher</p>
+          <p className={styles.description}>Next.js Developer | Computer Vision Researcher </p>
           <p className={styles.description} style={{ marginTop: 5 }}>
-            I am passionate about ML and 🤖 Computer Vision.
+            Passionate about Autonomous Systems and 🤖 Computer Vision.
           </p>
 
           <div className={"flex-row flex-wrap gap-10 icon-row my-15"}>

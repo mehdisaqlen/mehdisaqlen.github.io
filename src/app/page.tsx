@@ -12,42 +12,23 @@ function Home() {
       <article className={`${styles.about} content-wrapper`}>
         <h2>About Me</h2>
         <p>
-          Hello, I&apos;m Saqlen Mehdi, a Software Engineering graduate with a
-          strong passion for <strong>AI</strong> and{" "}
-          <strong>Computer Vision</strong>. My research interests revolve around
-          utilizing AI and computer vision to address healthcare challenges,
-          such as early detection of brain tumors and other medical conditions.
+          I am a React Developer with expertise in Next.js, API development, Firebase, MongoDB, and Docker for streamlined app development and deployment. Over the past two years, I've been at the forefront of the AI revolution, specializing in Computer Vision and AI research. Currently, I'm a Software Developer at ASPIRE Pakistan and a contributing researcher at the National AI Think Tank Program.
         </p>
         <p>
-          As a full-stack developer, I have a strong command of web development
-          technologies. I am skilled in building interactive and responsive web
-          applications using <strong>React, Next.js, Node.js,</strong> and{" "}
-          <strong>Python</strong>. My proficiency in these areas allows me to
-          create engaging user experiences and deliver high-quality web
-          solutions.
+        I&apos;m passionate about building innovative computer vision applications and diving deep into deep learning. My recent project, a “Facial Emotions Recognition System” built with OpenCV and Keras that achieved an accuracy rate of 94%, showcases my ability to turn knowledge into practical solutions.
         </p>
 
         <p>
-          In addition to my technical skills, I possess a diverse range of soft
-          skills. I am proficient in graphic designing, copywriting,
-          documentation, and have experience in leading teams, project
-          management, and ensuring optimal user experience.
+        Rather than spreading myself thin across multiple technologies, I focus on mastering the tools that enable me to solve real-world problems. I'm a project-driven learner, having taught myself web and desktop app development, as well as technologies like Tensorflow, Keras, and OpenCV.
         </p>
 
         <p>
-          I also enjoy contributing and sharing my knowledge with others. You
-          can find my articles on Medium and Wirelogs, where I cover various
-          topics related to software engineering, AI, and computer vision. I
-          also actively teach coding and related concepts on YouTube.
+        I&apos;m also an avid blogger, sharing my knowledge and insights with the community.
         </p>
 
-        <p>
-          If you&apos;re looking for someone to collaborate with in achieving
-          your business goals or have any other inquiries, please feel free to
-          reach out to me.
-        </p>
+   
 
-        <strong>Regards,</strong>
+        <strong>Warm Regards,</strong>
         <p>Saqlen Raza Mehdi</p>
         <div className={styles.socialIcons}>
           <Link
